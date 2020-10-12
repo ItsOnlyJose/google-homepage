@@ -1,5 +1,48 @@
-#main {
-    display: flex;
-    flex-direction: column;
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
 }
 
+.nav-list {
+    display: flex;
+    font-size: 12px;
+    background:white;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color:#000;
+    opacity: 0.75;
+}
+
+.nav-item:nth-child(2){
+    margin-right: auto;
+}
+
+.btm-nav-item {
+    font-size: 14px;
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.btm-nav-item a{
+    text-decoration: none;
+    color:#000;
+    opacity: 0.75;
+}
+
+.btm-nav-item:nth-child(3){
+    margin-right: auto;
+}
+
+
+a:hover {
+    text-decoration-line: underline;
+}

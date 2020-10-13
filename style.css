@@ -26,6 +26,18 @@ body {
     margin-right: auto;
 }
 
+.nav-logo img{
+    max-height: 20px;
+}
+
+.nav-logo img:hover{
+    opacity: 25%;
+}
+
+.nav-profile img{
+    border-radius: 50%;
+}
+
 .btm-nav-item {
     font-size: 14px;
     list-style: none;
@@ -41,6 +53,7 @@ body {
 .btm-nav-item:nth-child(3){
     margin-right: auto;
 }
+
 
 
 a:hover {

@@ -38,6 +38,15 @@ body {
     border-radius: 50%;
 }
 
+.btm-nav-list {
+    display: flex;
+    font-size: 12px;
+    background:#f2f2f2;
+    justify-content: flex-end;
+    align-items: center;
+    bottom: 0;
+}
+
 .btm-nav-item {
     font-size: 14px;
     list-style: none;
@@ -58,4 +67,56 @@ body {
 
 a:hover {
     text-decoration-line: underline;
+}
+
+.middle {
+    display:flex;
+    background:white;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle img {
+    max-height: 100px;
+    margin-top: 90px;
+}
+
+.search-area {
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-area input{
+    width: 450px;
+    border-radius: 15px;
+    border: 1px lightgray solid;
+    padding: 5px 5px 5px 25px;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    margin-top: 10px;
+}
+
+.search-area input:hover {
+    box-shadow: 1px 1px 8px #888888;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+div button {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+    background-color:#f2f2f2;
+    border: #f2f2f2;
+    border-radius: 3px;
+    padding:8px 22px;
 }
